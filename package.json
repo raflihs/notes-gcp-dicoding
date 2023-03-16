@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./",
+    "start-prod": "NODE_ENV=production node web-server/server.js",
     "start": "node web-server/server.js",
     "start-notes": "nodemon notes-app-back-end/server.js"
   },
